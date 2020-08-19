@@ -24,3 +24,7 @@ Para este projeto foi utilizado busca reversa(backtracking) e consistencia local
 
 #### Restrições
 * O valor da variável X<sub>i</sub> não pode ser igual a nenhum valor presente nas linhas, colunas, e grades.
+
+
+
+* Para executar, basta rodar python sudoku.py start_sudoku/dificuldade_escolhida.txt *

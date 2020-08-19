@@ -197,11 +197,7 @@ def main():
 		print(Sudoku)
 		
 		print("Tentando pelo método de backtracking...")
-		
-		t1=time.time()
 		solution = backTrackingSearch(Sudoku)
-		t2=time.time()
-		print("Tempo gasto {0:.2f}s".format(t2-t1))
 		
 		if(solution):
 			print("Solução encontrada por backtracking: \n")
